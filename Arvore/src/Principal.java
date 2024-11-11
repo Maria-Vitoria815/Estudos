@@ -17,16 +17,19 @@ public class Principal {
 		
 		n = e.valorMinimo();
 		
-		System.out.println("\n\nValor minimo= "+n.getValor());
+		System.out.println("\n\nValor mínimo = "+n.getValor());
 		
 		n = e.valorMaximo();
 		
-		System.out.println(("\n\nValor máximo= "+n.getValor()));
+		System.out.println(("\n\nValor máximo = "+n.getValor()));
         
         e.removerMinimo();
         
         System.out.println("\n\nOrdem após remover o valor mínimo\n");
         e.inOrdem();
+
+        No novoMinimo = e.valorMinimo();
+        System.out.println("\n\nValor mínimo = " + novoMinimo.getValor());
 
       
     }
