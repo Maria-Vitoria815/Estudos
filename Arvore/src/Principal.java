@@ -15,13 +15,13 @@ public class Principal {
 
        e.inOrdem();
 		
-		n = e.valorMinimo();
+	n = e.valorMinimo();
 		
-		System.out.println("\n\nValor mínimo = "+n.getValor());
+	System.out.println("\n\nValor mínimo = "+n.getValor());
 		
-		n = e.valorMaximo();
+	n = e.valorMaximo();
 		
-		System.out.println(("\n\nValor máximo = "+n.getValor()));
+	System.out.println(("\n\nValor máximo = "+n.getValor()));
         
         e.removerMinimo();
         
