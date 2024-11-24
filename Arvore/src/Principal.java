@@ -31,6 +31,9 @@ public class Principal {
         No novoMinimo = e.valorMinimo();
         System.out.println("\n\nValor mínimo = " + novoMinimo.getValor());
 
+
+    //adição da atividade da data 18/11 - Implementar um método que retorne a altura de uma árvore
+    System.out.println("\n\nAltura da árvore = " + e.altura());
       
     }
 

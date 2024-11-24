@@ -138,6 +138,27 @@ public class Estrutura {
         no.setEsquerda(removerMinimo(no.getEsquerda()));
         return no;
     }
+
+
+    //adição da atividade da data 18/11 - Implementar um método que retorne a altura de uma árvore
 	
+	public int altura() {
+        return altura(this.raiz);
+    }
+	
+	
+	public int altura(No no) {
+        if (no == null) {
+            return -1;
+        }
+
+        int alturaEsquerda = altura(no.getEsquerda());
+        int alturaDireita = altura(no.getDireita());
+
+        return Math.max(alturaEsquerda, alturaDireita) + 1;
+    }
+
+
+
 
 }
